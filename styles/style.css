@@ -138,6 +138,11 @@ body {
     right: 16%;
     top: 15%;
     z-index: 1000;
+    transition: transform 0.3s ease;
+}
+
+.flutuante_icone_html:hover {
+    transform: scale(1.2);
 }
 
 .flutuante_icone_css {
@@ -146,30 +151,50 @@ body {
     right: 11%;
     top: 15%;
     z-index: 1000;
+    transition: transform 0.3s;
+}
+
+.flutuante_icone_css:hover {
+    transform: scale(1.2);
 }
 
 .flutuante_icone_js {
     width: 25%;
     position: fixed;
-    right: 00%;
+    right: 06%;
     top: 15%;
     z-index: 1000;
+    transition: transform 0.3s;
+}
+
+.flutuante_icone_js:hover {
+    transform: scale(1.2);
 }
 
 .flutuante_icone_java {
     width: 25%;
     position: fixed;
-    right: -06%;
+    right: 00%;
     top: 15%;
     z-index: 1000;
+    transition: transform 0.3s;
+}
+
+.flutuante_icone_java:hover {
+    transform: scale(1.2);
 }
 
 .flutuante_icone_suporte {
     width: 25%;
     position: fixed;
-    right: 06%;
+    right: -06%;
     top: 15%;
     z-index: 1000;
+    transition: transform 0.3s;
+}
+
+.flutuante_icone_suporte:hover {
+    transform: scale(1.2);
 }
 
 @media (max-width: 1250px) {
