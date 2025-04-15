@@ -109,9 +109,13 @@ body {
 }
 
 .apresentacao__imagem {
-    width: 50%;
+    width: 25%;
     border: 2px solid var(--cor-terciaria);
     border-radius: 16px;
+    position: fixed;
+    right: 15%;
+    top: 25%;
+    z-index: 1000;
 }
 
 .apresentacao__links__link:hover {
@@ -126,6 +130,46 @@ body {
     font-family: var(--font-primaria);
     font-size: 1.5rem;
     font-weight: 400;
+}
+
+.flutuante_icone_html {
+    width: 25%;
+    position: fixed;
+    right: 16%;
+    top: 15%;
+    z-index: 1000;
+}
+
+.flutuante_icone_css {
+    width: 25%;
+    position: fixed;
+    right: 11%;
+    top: 15%;
+    z-index: 1000;
+}
+
+.flutuante_icone_js {
+    width: 25%;
+    position: fixed;
+    right: 00%;
+    top: 15%;
+    z-index: 1000;
+}
+
+.flutuante_icone_java {
+    width: 25%;
+    position: fixed;
+    right: -06%;
+    top: 15%;
+    z-index: 1000;
+}
+
+.flutuante_icone_suporte {
+    width: 25%;
+    position: fixed;
+    right: 06%;
+    top: 15%;
+    z-index: 1000;
 }
 
 @media (max-width: 1250px) {
@@ -145,4 +189,5 @@ body {
     .apresentacao__conteudo {
         width: auto;
     }
+
 }
