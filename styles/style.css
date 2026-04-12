@@ -200,7 +200,7 @@ body {
 .flutuante_icone_aws {
     width: 25%;
     position: fixed;
-    right: -10%;
+    right: -12%;
     top: 15%;
     z-index: 1000;
     transition: transform 0.3s;
