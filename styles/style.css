@@ -200,13 +200,26 @@ body {
 .flutuante_icone_aws {
     width: 25%;
     position: fixed;
-    right: -12%;
-    top: 15%;
+    right: 10%;
+    top: 85%;
     z-index: 1000;
     transition: transform 0.3s;
 }
 
 .flutuante_icone_aws:hover {
+    transform: scale(1.2);
+}
+
+.flutuante_icone_azure {
+    width: 25%;
+    position: fixed;
+    right: -02%;
+    top: 85%;
+    z-index: 1000;
+    transition: transform 0.3s;
+}
+
+.flutuante_icone_azure:hover {
     transform: scale(1.2);
 }
 
