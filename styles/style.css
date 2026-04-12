@@ -197,6 +197,19 @@ body {
     transform: scale(1.2);
 }
 
+.flutuante_icone_aws {
+    width: 25%;
+    position: fixed;
+    right: -06%;
+    top: 15%;
+    z-index: 1000;
+    transition: transform 0.3s;
+}
+
+.flutuante_icone_aws:hover {
+    transform: scale(1.2);
+}
+
 @media (max-width: 1250px) {
     .cabecalho {
         padding: 10%;
